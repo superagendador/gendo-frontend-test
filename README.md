@@ -2,7 +2,6 @@
 Este repositório tem como fim testar os candidatos para vaga de front-end developer no [SuperAgendador](https://superagendador.com.br).
 > Para esta vaga buscamos alguém apaixonado por JavaScript e atento aos detalhes!
 
-Link do Zepplin: https://zpl.io/25q7DKo
 
 ## Instruções
 1. Faça um fork deste repositório
@@ -33,9 +32,9 @@ Link do Zepplin: https://zpl.io/25q7DKo
 * CSS transitions
 * [BEM](https://tableless.com.br/bem-um-novo-metodo-para-seu-css/) (Block, Element Modifier) nas nomenclaturas do CSS
 
-## Material https://zpl.io/25q7DKo
+## Material
 
-Todo o layout está hospedado no Zepplin neste link: https://zpl.io/25q7DKo
+Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 
 ### Como acessar o Zeplin
 1. Acesse o [link do projeto](https://zpl.io/25q7DKo)
