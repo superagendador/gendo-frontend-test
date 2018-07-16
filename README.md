@@ -43,4 +43,4 @@ Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
 
 ## Envio do teste
-1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@gmail.com](mailto:jbaladao@gmail.com)
+1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@superagendador.com](mailto:jbaladao@superagendador.com)
