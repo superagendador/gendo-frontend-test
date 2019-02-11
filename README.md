@@ -1,16 +1,16 @@
 # Teste para vaga de front-end no SuperAgendador
 Este repositório tem como fim testar os candidatos para vaga de front-end developer no [SuperAgendador](https://superagendador.com.br).
-> Para esta vaga buscamos alguém apaixonado por JavaScript e atento aos detalhes!
+> Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
 
 
-## Instruções
+## Instruções Básicas
 1. Faça um fork deste repositório
 2. Implemente o HTML e CSS de forma que fique fiel ao layout
 3. Atenção com espaçamentos e tamanhos de fonte
 4. Qualquer contribuição para melhorar o resultado será bem vinda!
 5. O usuário do GitHub utilizado no exemplo pode ser qualquer um de sua escolha
 
-## A página deve
+## Desafio! A página deve:
 1. Carregar os dados de forma dinâmica utilizando a [API do GitHub](https://developer.github.com/v3/)
 2. Carregar os repositórios do usuário inicialmente
 3. Carregar os favoritos do usuário ao acessar a tab **Starred**
@@ -28,7 +28,7 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * Mobile First
 
 ### Bônus
-* AngularJS, Angular (2+), React, VueJS ou similar
+* AngularJS, Angular (2+), React, VueJS ou Javascript puro e organizado
 * CSS transitions
 * [BEM](https://tableless.com.br/bem-um-novo-metodo-para-seu-css/) (Block, Element Modifier) nas nomenclaturas do CSS
 
