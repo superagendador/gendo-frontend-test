@@ -10,7 +10,7 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 4. Qualquer contribuição para melhorar o resultado será bem vinda!
 5. O usuário do GitHub utilizado no exemplo pode ser qualquer um de sua escolha
 
-## Desafio! A página deve:
+## Desafio (opcional para Junior), a página deve:
 1. Carregar os dados de forma dinâmica utilizando a [API do GitHub](https://developer.github.com/v3/)
 2. Carregar os repositórios do usuário inicialmente
 3. Carregar os favoritos do usuário ao acessar a tab **Starred**
