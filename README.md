@@ -1,4 +1,4 @@
-# Teste para vaga de front-end no SuperAgendador
+# Teste para vaga de front-end na Gendo/SuperAgendador
 Este repositório tem como fim testar os candidatos para vaga de front-end developer no [SuperAgendador](https://superagendador.com.br).
 > Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
 
