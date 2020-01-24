@@ -39,7 +39,7 @@ Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 
 ### Como acessar o Zeplin
 1. Acesse o [link do projeto](https://zpl.io/25q7DKo)
-2. Faça Login com `testesuperagendador` para **usuário** e **senha**
+2. Faça Login digitando `testesuperagendador` nos campos de **usuário** e **senha**
 3. Abra o projeto **superagendador-front-end-test**
 4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
 
