@@ -1,5 +1,5 @@
 # Teste para vaga de front-end na Gendo/SuperAgendador
-Este repositório tem como fim testar os candidatos para vaga de front-end developer no [SuperAgendador](https://superagendador.com.br).
+Este repositório tem como fim testar os candidatos para vaga de front-end developer no [Gendo](https://gendo.com.br).
 > Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
 
 
@@ -44,4 +44,4 @@ Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
 
 ## Envio do teste
-1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@superagendador.com](mailto:jbaladao@superagendador.com)
+1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
