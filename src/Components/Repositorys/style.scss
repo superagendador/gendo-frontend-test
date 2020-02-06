@@ -1,0 +1,11 @@
+$color__gray--light: #e1e4e8;
+$color__blue: #3498db;
+
+.card__repository{
+    border-bottom: .5px solid $color__gray--light;
+    padding: 22px 0;
+}
+.card__repository--title{
+    color: $color__blue;
+    font-size: 20px;
+}
