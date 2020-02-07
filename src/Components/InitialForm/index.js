@@ -1,7 +1,7 @@
 import React from "react";
 
 const InitialForm = ({ user, error, btnAction, getUser }) => (
-  <div className="InitialFromContainer">
+  <div className="InitialFormContainer">
     <input
       type="text"
       className="userInput"
