@@ -1,4 +1,5 @@
 $color__gray--light: #e1e4e8;
+$color__gray: #5c646d;
 $color__blue: #3498db;
 
 .card__repository{
@@ -8,4 +9,22 @@ $color__blue: #3498db;
 .card__repository--title{
     color: $color__blue;
     font-size: 20px;
+}
+.card__repository--description{
+    color: $color__gray;
+    font-size: 12px;
+}
+.repo__input--search input{
+    width: 290px;
+    height: 38px;
+}
+input{
+    border: 1px solid #ccc;
+    color: #999999;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.repo__tab{
+    border-bottom: 1px solid #e3e3e3;
 }
