@@ -11,11 +11,17 @@ class Repositorys extends Component {
     repos: [],
     profile: [],
     controlState: false,
-    error: "",
     search: null,
     reposCount: "",
     starred: false,
+    starredNumber: '',
+    hasError: false 
   };
+
+  componentDidCatch(error) {
+    // Mostra uma UI alternativa
+    this.setState({ hasError: true });
+  }
 
   searchRepo=(event)=>{
     let keyword = event.target.value;
@@ -34,10 +40,22 @@ class Repositorys extends Component {
     const responseStarred = await axios.get(
       `https://api.github.com/users/${user}/starred`
     );
-    if(this.state.starred == true)    {
-      this.setState({ repos: responseStarred.data, controlState: true });
+    const responseStarredNumber = await axios.get(
+      `https://api.github.com/users/${user}/starred`
+    );
+    let starredNumber = responseStarredNumber.data.length 
+    if(this.state.starred === true)    {
+      this.setState({ repos: responseStarred.data, controlState: true, starredNumber: starredNumber });
+      const btnOn = document.querySelector('#second')
+      const btnOff = document.querySelector('#first')
+      btnOn.classList.add('active')
+      btnOff.classList.remove('active')
     }else{
-      this.setState({ repos: response.data, controlState: true });
+      this.setState({ repos: response.data, controlState: true, starredNumber: starredNumber });
+      const btnOn = document.querySelector('#first')
+      const btnOff = document.querySelector('#second')
+      btnOn.classList.add('active')
+      btnOff.classList.remove('active')
     }
     this.getDataSidebar()
   };
@@ -48,37 +66,42 @@ class Repositorys extends Component {
     this.setState({ profile: response.data, controlState: true, reposCount: response.data.public_repos });
   };
 
-  onRepos = async () =>{
+  onRepos = async (e) =>{    
     this.setState({ starred:false });
     this.getData()
+
   }
 
-  onStarred = async () => {
+  onStarred = async (e) => {
     this.setState({ starred:true });
-    this.getData()
-
+    this.getData() 
   }
+
 
   render() {
-    const { user, repos, profile, error, controlState, reposCount} = this.state
+    if (this.state.hasError) {
+      // Você pode renderizar qualquer alternativa de UI
+      return <h1>Algo deu errado.</h1>;
+    }
+    const { user, repos, profile, error, controlState, reposCount, starredNumber} = this.state
     if(controlState){
       return (      
         <div className="repository-list container-fluid">  
           <div className="row">
-            <nav className="col-2">              
+            <nav className="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">              
               <Sidebar profile={profile} />
             </nav>
-            <main className="col-10 text-left">
-              <div className="repo__tab row py-2" >
-                <div className="repo__tab--link col-2 text-center" onClick={this.onRepos}>
+            <main className="repo__tab--main text-left col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 pl-lg-5 pl-xl-5">
+              <div className="repo__tab row" >
+                <div id="first" className="repo__tab--link col- col-sm- col-md-4 col-lg-2 col-xl-2 text-center" onClick={this.onRepos}>
                   Repos <span className="repo__tab--count px-2">{reposCount}</span>
                 </div>
-                <div className="repo__tab--link col-2 text-center" onClick={this.onStarred}>
-                  Starred 
+                <div id="second" className="repo__tab--link col- col-sm- col-md-4 col-lg-2 col-xl-2 text-center" onClick={this.onStarred}>
+                  Starred <span className="repo__tab--count px-2">{starredNumber}</span>
                 </div>
               </div>
               <div className="repo__input--search py-3">
-                <input type="text" placeholder="Filter by name" onChange={(e)=>this.searchRepo(e)} />
+                <input type="text" placeholder="&#xf002; Filter by name" onChange={(e)=>this.searchRepo(e)} style={{fontFamily: 'Open Sans, FontAwesome'}} />
               </div>
               {repos.filter((el)=>{
                 if(this.state.search == null)
