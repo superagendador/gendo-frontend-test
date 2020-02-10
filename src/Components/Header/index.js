@@ -9,10 +9,14 @@ const Header = () => (
     <nav className="navbar">
       <div className="row">
         <div className="col-2">
-          <img src={imgLogo} alt='Logo GitHub' />
+          <a href="/">
+            <img src={imgLogo} alt='Logo GitHub' />
+          </a>
         </div>
         <div className="col-10">
-          <h1 className="title text-white"><span className="font-weight-bold">GitHub</span> Profile</h1>
+          <a href="/">
+            <h1 className="title text-white"><span className="font-weight-bold">Github</span> profiles</h1>
+          </a>
         </div>
       </div>
     </nav>
