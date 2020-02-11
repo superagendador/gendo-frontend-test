@@ -1,0 +1,58 @@
+$color__gray--light: #e1e4e8;
+$color__gray--medium: #586069;
+$color__gray: #5c646d;
+$color__blue: #3498db;
+
+a:hover{
+    color: $color__blue;
+}
+.card__repository{
+    border-bottom: .5px solid $color__gray--light;
+    padding: 18px 0;
+}
+.card__repository--title, .card__repository--title:hover{
+    color: $color__blue;
+    font-size: 20px;
+}
+.card__repository--title a:hover{
+    color: $color__blue !important;
+}
+.card__repository--description{
+    color: $color__gray;
+    font-size: 12px;
+}
+.repo__input--search input{
+    width: 290px;
+    height: 38px;
+}
+
+input{
+    border: 1px solid #ccc;
+    color: #999999;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 2px;    
+}
+.repo__tab{
+    border-bottom: 1px solid #e3e3e3;
+}
+.repo__tab--link{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #586069;
+    cursor: pointer;
+}
+.repo__tab--link.active {
+    border-bottom: 2.5px solid #e36209;
+    font-weight: bold;
+}
+.repo__tab--count{
+    width: 26px;
+    height: 19px;
+    background-color: #d8d8d8;
+    border-radius: 13px;
+    color: $color__gray--medium;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px 0;
+}

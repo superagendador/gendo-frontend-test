@@ -1,0 +1,15 @@
+/*Variaveis*/
+$color-gray: #24292e;
+
+
+header{
+    background-color: $color-gray;    
+}
+nav{
+    max-height: 64px;
+}
+h1.title{
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 150%;
+}
