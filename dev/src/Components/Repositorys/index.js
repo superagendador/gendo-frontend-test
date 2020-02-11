@@ -15,7 +15,6 @@ class Repositorys extends Component {
     reposCount: "",
     starred: false,
     starredNumber: '',
-    hasError: false 
   };
 
   componentDidCatch(error) {
@@ -79,10 +78,6 @@ class Repositorys extends Component {
 
 
   render() {
-    if (this.state.hasError) {
-      // Você pode renderizar qualquer alternativa de UI
-      return <h1>Algo deu errado.</h1>;
-    }
     const { user, repos, profile, error, controlState, reposCount, starredNumber} = this.state
     if(controlState){
       return (      
