@@ -16,12 +16,7 @@ class Repositorys extends Component {
     starred: false,
     starredNumber: '',
   };
-
-  componentDidCatch(error) {
-    // Mostra uma UI alternativa
-    this.setState({ hasError: true });
-  }
-
+  
   searchRepo=(event)=>{
     let keyword = event.target.value;
     this.setState({search:keyword})
