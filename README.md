@@ -34,14 +34,8 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * [BEM](https://tableless.com.br/bem-um-novo-metodo-para-seu-css/) (Block, Element Modifier) nas nomenclaturas do CSS
 
 ## Material
-
-Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
-
-### Como acessar o Zeplin
-1. Acesse o [link do projeto](https://zpl.io/25q7DKo)
-2. Faça Login digitando `testesuperagendador` nos campos de **usuário** e **senha**
-3. Abra o projeto **superagendador-front-end-test**
-4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
+Todo o layout está hospedado no Zeplin neste link: 
+https://scene.zeplin.io/project/5b48f7870acff10844983114
 
 ## Envio do teste
 1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
