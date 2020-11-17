@@ -1,4 +1,4 @@
-# Teste para vaga de front-end na Gendo/SuperAgendador
+# Teste para vaga de front-end na Gendo.com.br
 Este repositório tem como fim testar os candidatos para vaga de front-end developer na empresa [Gendo](https://gendo.com.br).
 > Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
 
