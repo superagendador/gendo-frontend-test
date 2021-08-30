@@ -21,7 +21,7 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * HTML Semântico
 * CSS de fácil leitura e reutilização
 * Uso de pré-processadores CSS como Sass, Less ou Stylus
-* Uso de algum *task runner* para gerar os arquivos minificados (Grunt, Gulp, Webpack, etc.)
+* Utilizar algum empacotador como Webpack ou similiar
 
 ## Stack
 ### Preferível
@@ -30,6 +30,7 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 
 ### Bônus
 * AngularJS, Angular (2+), React, VueJS ou Javascript puro e organizado
+* Testes unitários (Jest, Jasmine ou similar)
 * CSS transitions
 * [BEM](https://tableless.com.br/bem-um-novo-metodo-para-seu-css/) (Block, Element Modifier) nas nomenclaturas do CSS
 
