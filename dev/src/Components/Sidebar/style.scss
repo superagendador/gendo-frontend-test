@@ -1,0 +1,31 @@
+$color__gray--dark: #24292e;
+$color__gray: #666666;
+
+.sidebar{
+    color: $color__gray--dark;
+}
+.profile__avatar{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 200px;
+    margin-top: 29px;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+.profile__avatar img{
+    width: 100%;
+}
+.profile__name{
+    font-size: 20px;
+}
+.profile__description{
+    font-size: 14px;
+    color: $color__gray;
+}
+main{
+    margin-top: 35px;
+}
+nav {
+    max-height: 100%;
+}
