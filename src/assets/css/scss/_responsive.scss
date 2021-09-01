@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .image-profile {
+    width: 75px;
+    height: 75px;
+    margin-left: 15px;
+  }
+
+  .user {
+    margin-left: 10px;
+  }
+  .sub {
+    margin-left: 10px;
+  }
+  .text-profile {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    margin-top: 0px;
+  }
+  .link {
+    padding: 0px 5px 10px 5px;
+  }
+
+}
+
+@media only screen and (max-width: 280px) {
+  .link {
+    padding: 0px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+
+  
+}

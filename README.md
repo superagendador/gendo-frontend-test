@@ -40,3 +40,12 @@ https://scene.zeplin.io/project/5b48f7870acff10844983114
 
 ## Envio do teste
 1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
+
+//Para esse projeto utilizei Vue.js, css, sass, boostrap, axios, etc...
+usei ScoutApp para compilar o sass em modo compacto
+usei a api do github
+
+
+npm install // para instalar as dependências
+
+npm run serve // Rodar o servidor local
