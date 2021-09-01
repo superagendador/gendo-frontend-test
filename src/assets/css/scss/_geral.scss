@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: $text-family;
+  }
+  
+  body,
+  ul,
+  li,
+  h1,
+  h2,
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
